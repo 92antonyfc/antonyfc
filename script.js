@@ -1,1 +1,1 @@
-console.log('Antony FC');
+document.querySelector('.btn').onclick=()=>document.getElementById('rejoindre').scrollIntoView({behavior:'smooth'});
