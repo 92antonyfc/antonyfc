@@ -4,3 +4,6 @@
 
 .squad-card{padding:24px;}
 .squad-card .team-photo{width:100%;aspect-ratio:16/9;height:auto;object-fit:contain;background:#0a0a0b;border-radius:14px;margin-bottom:18px;display:block;}
+
+.partners-intro { margin: 8px 0 24px; color: var(--muted); max-width: 78ch; }
+.current-partner-card img { width: 100%; max-width: none; height: 160px; object-fit: cover; background: #fff8cc; border-radius: 14px; padding: 0; border: 1px solid var(--line); }
