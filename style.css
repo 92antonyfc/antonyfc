@@ -7,3 +7,10 @@
 
 .partners-intro { margin: 8px 0 24px; color: var(--muted); max-width: 78ch; }
 .current-partner-card img { width: 100%; max-width: none; height: 160px; object-fit: cover; background: #fff8cc; border-radius: 14px; padding: 0; border: 1px solid var(--line); }
+
+@media (max-width: 768px) { .site-header { padding-block: 14px; } .header-inner { min-height: 152px !important; align-items: center; } .brand { gap: 18px; } .brand-logo { width: 96px !important; height: 96px !important; border-radius: 20px; } .brand strong { font-size: 2rem !important; } .brand span { font-size: 1.08rem !important; line-height: 1.25; } .nav-toggle { width: 62px !important; height: 62px !important; border-radius: 18px; } .nav-toggle span:not(.sr-only) { width: 24px; height: 3px; } }
+
+.support-section { background: linear-gradient(180deg, rgba(255,214,10,0.05), rgba(255,214,10,0.02)); }
+.support-card { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 18px; box-shadow: var(--shadow); overflow: hidden; }
+.support-card iframe { display: block; width: 100%; min-height: 750px; border: 0; border-radius: 18px; background: #ffffff; }
+@media (max-width: 768px) { .support-card { padding: 12px; border-radius: 20px; } .support-card iframe { min-height: 820px; } }
